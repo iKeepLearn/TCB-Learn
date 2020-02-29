@@ -1,0 +1,98 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx12f18098bae0fd70",
+	"projectname": "TCB-Learn",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "云调用获取加密数据",
+					"pathName": "pages/cloudbase/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "内容安全检查",
+					"pathName": "pages/cloudbase/contentsec",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "openai",
+					"pathName": "pages/openai/openai",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "滚动消息",
+					"pathName": "pages/scroll/scroll",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "生成小程序码",
+					"pathName": "pages/minappqr/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": " 插件",
+					"pathName": "pages/cloudbase/plugin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tts",
+					"pathName": "pages/cloudbase/tts",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
