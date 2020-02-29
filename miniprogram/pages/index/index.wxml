@@ -1,0 +1,8 @@
+<navigator url="/pages/cloudbase/contentsec" class="item">内容安全检查</navigator>
+<navigator url="/pages/cloudbase/index" class="item">获取用户加密数据</navigator>
+<navigator url="/pages/cloudbase/plugin" class="item">插件管理</navigator>
+<navigator url="/pages/cloudbase/tts" class="item">TTS</navigator>
+<navigator url="/pages/minappqr/index" class="item">生成小程序码</navigator>
+<navigator url="/pages/openai/openai" class="item">智能对话平台</navigator>
+<navigator url="/pages/scroll/scroll" class="item">跑马灯效果</navigator>
+

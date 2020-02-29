@@ -1,0 +1,22 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+
+.item{
+  margin-top: 20rpx;
+  color: #fff;
+  padding:20rpx;
+  background-color: green;
+  border: 2rpx solid white;
+  border-radius: 10rpx;
+}
+
