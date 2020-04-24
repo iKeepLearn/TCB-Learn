@@ -1,0 +1,42 @@
+<view class="sign-title flex justify-around padding-top">
+	<view class="flex-column align-center">
+		<view class="text-lg text-center">{{continueDays || (signTotal ? 1 : 0)}}</view>
+		<view class="text-white">连续签到天数</view>
+	</view>
+	<view class="flex-column align-center">
+		<view class="text-lg text-center">{{signTotal || 0}}</view>
+		<view class="text-white">累计签到天数</view>
+	</view>
+</view>
+
+<view class="calendar text-pink flex flex-column">
+	<view class="top-handle flex justify-center align-center">
+		<view class="prev " bindtap="handleCalendar" data-handle="prev">《</view>
+		<view class="date-area ">{{curYear || "--"}} 年 {{curMonth || "--"}} 月</view>
+		<view class="next " bindtap="handleCalendar" data-handle="next">》</view>
+	</view>
+	<view class="weeks flex align-center ">
+		<view class="day-item grid flex align-center justify-center" wx:for="{{weeksCh}}" wx:key="index" data-idx="{{index}}">{{item}}</view>
+	</view>
+	<view class="days flex align-center ">
+		<view wx:if="{{hasEmptyGrid}}" class="grid text-whiter flex align-center justify-center" wx:for="{{empytGrids}}" wx:key="index" data-idx="{{index}}">
+		</view>
+		<view class="grid text-white flex flex-column align-center justify-center" wx:for="{{days}}" wx:key="index" data-idx="{{index}}" bindtap="tapDayItem">
+			<view class="day {{item.choosed ? 'bg-pink text-white around' : 'text-green'}}  flex align-center justify-center">{{item.day}}</view>
+			<view class="text-pink text-lg" wx:if="{{item.choosed}}">✌︎</view>
+			<view class="text-white" wx:else>0</view>
+		</view>
+	</view>
+	<view class="sign-btn padding">
+		<button class="border-radius" bindtap="sign" type="primary" style="width:100%;" disabled="{{sign || signed}}">{{signed?"今日已签到":"签到"}}</button>
+	</view>
+
+</view>
+
+
+
+<view class="margin-top padding">
+	<view class="text-pink">签到规则</view>
+	<view class="text-grey">1,签到规则一</view>
+	<view class="text-grey">1,签到规则二</view>
+</view>

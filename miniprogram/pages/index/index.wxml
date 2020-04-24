@@ -5,4 +5,5 @@
 <navigator url="/pages/minappqr/index" class="item">生成小程序码</navigator>
 <navigator url="/pages/openai/openai" class="item">智能对话平台</navigator>
 <navigator url="/pages/scroll/scroll" class="item">跑马灯效果</navigator>
+<navigator url="/pages/calendar/calendar" class="item">签到日历</navigator>
 

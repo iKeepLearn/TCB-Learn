@@ -1,0 +1,116 @@
+page {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sign-title {
+    background-color: #2ba516;
+    min-height: 200rpx;
+    color: #fff;
+}
+
+.calendar {
+    width: 700rpx;
+    min-height: 800rpx;
+    margin: -40rpx auto 20rpx;
+    border-radius: 20rpx;
+    background-color: #fff;
+    box-shadow: 0 0 4rpx #fff;
+    overflow: hidden;
+}
+
+.top-handle {
+    height: 80rpx;
+    line-height: 80rpx;
+    background-color: rgba(255, 205, 108, 0.8);
+    border-radius: 20rpx 20rpx 0 0;
+}
+
+
+
+.prev,
+.next {
+    padding: 0 40rpx;
+}
+
+.date-area {
+    width: 50%;
+    text-align: center;
+}
+
+.weeks {
+    height: 50rpx;
+    line-height: 50rpx;
+    opacity: 0.5;
+}
+
+.week {
+    text-align: center;
+}
+
+.days {
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: 100rpx;
+}
+
+.day {
+    width: 60rpx;
+    height: 60rpx;
+    font-size: 26rpx;
+    font-weight: 200;
+}
+
+.around {
+    border-radius: 100%;
+}
+
+
+.gs_circle {
+    padding: 50rpx 0;
+}
+
+.gs_incircle {
+    width: 225rpx;
+    height: 225rpx;
+    background-image: linear-gradient(to top, #8bc4f6, #8bc4f6);
+    border-radius: 50%;
+    padding: 10rpx;
+    margin: 20rpx auto;
+    cursor: pointer;
+}
+
+.gs_excircle {
+    width: 205rpx;
+    height: 205rpx;
+    /* background-color:#fff; */
+    border-radius: 50%;
+    padding: 10rpx;
+}
+
+.gs_innercircle {
+    width: 185rpx;
+    height: 185rpx;
+    background-image: linear-gradient(to top, #53acfc, #63b2f7);
+    border-radius: 50%;
+    padding: 10rpx;
+}
+
+.gs_btn {
+    text-align: center;
+}
+
+.gs_btn text {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    line-height: 185rpx;
+    font-size: 36rpx;
+}

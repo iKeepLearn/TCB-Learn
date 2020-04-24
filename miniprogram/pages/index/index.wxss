@@ -3,20 +3,25 @@
 page {
   background: #f6f6f6;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  padding: 20rpx;
+  padding: 10rpx;
   box-sizing: border-box;
 }
 
 
-.item{
-  margin-top: 20rpx;
-  color: #fff;
-  padding:20rpx;
-  background-color: green;
-  border: 2rpx solid white;
+.item {
+  height: 220rpx;
+  width: 220rpx;
+  color: rgb(77, 59, 59);
+  padding: 20rpx;
+  border: 2rpx solid #eee;
   border-radius: 10rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
