@@ -1,16 +1,13 @@
-/**index.wxss**/
 
-page {
+.index {
   background: #f6f6f6;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   padding: 10rpx;
   box-sizing: border-box;
 }
-
 
 .item {
   height: 220rpx;
@@ -18,9 +15,7 @@ page {
   color: rgb(77, 59, 59);
   padding: 20rpx;
   border: 2rpx solid #eee;
-  border-radius: 10rpx;
   box-sizing: border-box;
-  margin-top: 20rpx;
   display: flex;
   justify-content: center;
   align-items: center;
