@@ -162,7 +162,6 @@ Page({
         if (Object.keys(records).length) {
             days.forEach((item, index, array) => {
                 let day = util.formatNumber(item.day)
-                array[index].ledou = records[`${year}/${month}/${day}`] && records[`${year}/${month}/${day}`].ledou
                 array[index].choosed = Boolean(records[`${year}/${month}/${day}`])
             })
         }

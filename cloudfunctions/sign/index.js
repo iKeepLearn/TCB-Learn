@@ -45,10 +45,6 @@ exports.main = async (event, context) => {
   const _openid = wxContext.OPENID
   const now = Date.now()
 
-  const admin = await db.collection("admin").get()
-
-  logger.info(admin)
-
   const {
     data
   } = await db.collection('sign').where({
