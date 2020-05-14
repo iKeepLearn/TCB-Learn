@@ -8,7 +8,8 @@
     "pages/openai/openai",
     "pages/scroll/scroll",
     "pages/minappqr/index",
-    "pages/calendar/calendar"
+    "pages/calendar/calendar",
+    "pages/ocr/ocr"
   ],
   "window": {
     "backgroundColor": "#FFF",

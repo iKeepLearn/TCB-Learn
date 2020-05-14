@@ -2,7 +2,7 @@
 const cloud = require('wx-server-sdk')
 
 cloud.init({
-  env:"nuanxin"
+  env: "nuanxin"
 })
 
 const db = cloud.database()
@@ -66,10 +66,12 @@ exports.main = async (event, context) => {
   } else {
 
 
-    let isYesterday = dayIsYesterday(now, lastSignTime)
+    let isYesterday = dayIsYesterday(lastSignTime)
 
     if (isYesterday) {
       continue_sign_days = continue_sign_days + 1
+    } else {
+      continue_sign_days = 1
     }
 
 

@@ -1,0 +1,13 @@
+<button type="primary" size="mini" bindtap="bankcard">识别银行卡</button>
+
+<button type="primary" class="margin-top" size="mini" bindtap="printText">通用印刷体</button>
+
+<!-- <button type="primary" size="mini" bindtap="bankcard">识别银行卡</button>
+
+<button type="primary" size="mini" bindtap="bankcard">识别银行卡</button> -->
+
+<view class="result" wx:if="{{number}}">识别结果：{{number}}</view>
+
+<view class="result" wx:if="{{printText}}">
+  <view wx:for="{{printText}}" wx:key="index"> {{item.text}}</view>
+</view>

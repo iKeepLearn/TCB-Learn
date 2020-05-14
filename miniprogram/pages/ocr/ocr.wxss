@@ -1,0 +1,5 @@
+.result{
+  width: 96%;
+  margin: 40rpx auto;
+  text-align: center;
+}

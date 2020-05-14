@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "openapi": [
+      "openapi.ocr.bankcard",
+      "openapi.ocr.printedText"
+    ]
+  }
+}
